@@ -1,6 +1,16 @@
 import java.util.Scanner;
 
+/**
+ * Program KonversiJarak adalah aplikasi sederhana yang mengkonversi jarak dari satu unit ke unit lainnya.
+ * Ini mendukung konversi antara kilometer (km), mil (mi), dan meter (m).
+ */
 public class KonversiJarak {
+    /**
+     * Metode utama program. Menerima input jarak, unit awal, dan unit tujuan,
+     * kemudian menghitung dan mencetak hasil konversi.
+     *
+     * @param args Argumen baris perintah (tidak digunakan dalam program ini).
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
